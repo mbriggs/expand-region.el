@@ -85,7 +85,7 @@
           ;; Steal from html-mode-expansions
           er/mark-html-attribute)))
   ;; Selecting symbols is confusing since < and > symbols
-  (remove-from-list 'er/try-expand-list 'er/mark-symbol))
+  ;; (remove-from-list 'er/try-expand-list 'er/mark-symbol))
 
 (add-hook 'nxml-mode-hook 'er/add-nxml-mode-expansions)
 
